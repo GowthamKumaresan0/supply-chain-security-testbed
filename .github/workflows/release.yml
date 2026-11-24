@@ -1,0 +1,16 @@
+name: Release
+
+# Mistake 10: pull_request_target + checkout PR head + unpinned 3rd-party action with secret + no permissions
+on:
+  pull_request_target:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: thirdparty/deploy-action@main
+        with:
+          token: ${{ secrets.NPM_TOKEN }}

