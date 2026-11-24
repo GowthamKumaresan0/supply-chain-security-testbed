@@ -1,10 +1,10 @@
-# Guardian Demo 10 — Supply-Chain Security Verification Repo
+# Supply Chain Security Testbed
 
-A minimal, self-contained Node.js repository containing **10 intentional, clearly isolated supply-chain mistakes** designed to verify every Supply Chain Guardian agent and AI explanation guardrail.
+A controlled, minimal Node.js evaluation repository containing **10 representative supply-chain security scenarios** across dependencies, manifest integrity, container builds, and CI/CD workflows—built to benchmark detection accuracy, remediation, and AI explanation guardrails.
 
-> **Safe for local testing only.** All injected URLs use RFC 5737 / RFC 2606 reserved addresses (`203.0.113.10`, `mirror.example`). Never run `npm install` on this repo without `--ignore-scripts`.
+> **Safe for local evaluation only.** All simulated remote endpoints use RFC 5737 / RFC 2606 reserved addresses (`203.0.113.10`, `mirror.example`). Never run `npm install` on this repository without `--ignore-scripts`.
 
-## The 10 Intentional Mistakes
+## Benchmark Scenarios (10 Checks)
 
 | # | Category | Mistake | Expected Detection |
 |---|---|---|---|

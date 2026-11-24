@@ -1,7 +1,7 @@
 {
-  "name": "guardian-demo-10",
+  "name": "supply-chain-security-testbed",
   "version": "1.0.0",
-  "description": "Minimal demo app with 10 intentional supply-chain mistakes",
+  "description": "Controlled Node.js supply-chain security testbed covering 10 representative vulnerability, tampering, container, and CI/CD scenarios",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
